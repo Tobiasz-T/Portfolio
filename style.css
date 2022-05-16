@@ -1,0 +1,36 @@
+body{
+    margin:0px;
+}
+h1{
+    text-align: center;
+}
+#baner{
+    background-color: chartreuse;
+    height:100px;
+    width:100%;
+    float: left;
+}
+#menu{
+    background-color: chocolate;
+    height:100px;
+    width:100%;
+    float: left;
+}
+#left{
+    background-color: chocolate;
+    height:600px;
+    width:50%;
+    float: left;
+}
+#right{
+    background-color: chocolate;
+    height:600px;
+    width:50%;
+    float: left;
+}
+#footer{
+    background-color: gold;
+    height:30px;
+    width:100%;
+    clear:both;
+}
