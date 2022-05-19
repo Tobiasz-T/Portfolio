@@ -4,9 +4,10 @@ Strona o mojej pracy , zawodzie i zainteresowaniu.
 * [Technologia](#Technologia)
 * [Kontakt](#Kontakt)
 
-##Technologia
--HTML
--CSS
+## Technologia
+- HTML
+- CSS
+- JS (JavaScript)
 
-##Kontakt
-tel:665525360
+## Kontakt
+- tel:665525360
