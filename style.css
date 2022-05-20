@@ -5,32 +5,47 @@ h1{
     text-align: center;
 }
 #baner{
-    background-color: chartreuse;
+    background-color: rgb(77, 76, 75);
     height:100px;
-    width:100%;
+    width:50%;
     float: left;
 }
 #menu{
-    background-color: chocolate;
+    background-color: rgb(255, 106, 0);
     height:100px;
-    width:100%;
+    width:50%;
     float: left;
 }
 #left{
-    background-color: chocolate;
+    background-color: rgb(77, 76, 75);
     height:600px;
     width:50%;
     float: left;
 }
 #right{
-    background-color: chocolate;
+    background-color: rgb(77, 76, 75);
     height:600px;
     width:50%;
     float: left;
 }
 #footer{
-    background-color: gold;
+    background-color: rgb(13, 13, 13);
     height:30px;
     width:100%;
     clear:both;
+}
+.menu{
+    background-color: rgb(255, 106, 0);
+    text-align: center;
+    padding: 20px;
+    width: 100px;
+    float: left;
+}
+.menu:hover{
+    background-color: rgb(255, 106, 0);
+    border:5px solid rgb(0, 0, 191);
+    text-align: center;
+    padding: 20px;
+    width: 100px;
+    float: left;
 }
