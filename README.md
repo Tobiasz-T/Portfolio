@@ -2,7 +2,7 @@
 Strona o mojej pracy , zawodzie i zainteresowaniu.
 ## Spis treści
 * [Technologia](#Technologia)
-* Znam języki Programowania
+* [Znam języki Programowania](#Znam języki Programowania)
 * [Kontakt](#Kontakt)
 
 ## Technologia
