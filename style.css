@@ -55,3 +55,94 @@ h2{
     width: 100px;
     float: left;
 }
+
+.skill{
+    width: 100px;
+    height: 300px;
+    margin:60px auto;
+    color:rgb(16, 72, 239);
+    text-align: center;
+    padding:20px;
+    box-shadow:0 14px 20px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    float: left;
+}
+.bar{
+    background-color: #353b48;
+    display:block;
+    position: relative;
+    right: 50%;
+    height: 20px;
+    width: 200px;
+    border:1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    transform: rotate(-90deg) translateX(-100px)  ;
+    
+}
+.bar:hover{
+    box-shadow:0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+   
+}
+.bar span{
+    height: 20px;
+    float:left;
+    background:linear-gradient(135deg,  rgb(236, 0, 8)0%, rgb(2, 103, 4)100%);
+    /*(135deg,  rgba(236,0,140,1)0%, rgba(252,103,103,1)100%)*/
+}
+.html{
+    width: 90%;
+    animation: html 4s;
+}
+@keyframes html{
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+.css{
+    width: 70%;
+    animation: css 3s;
+}
+@keyframes css{
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+.js{
+    width: 60%;
+    animation: js 4s;
+}
+@keyframes js{
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+.php{
+    width: 40%;
+    animation: php 4s;
+}
+@keyframes php{
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+#html{
+    float:left;
+}
+#css{
+    float: left;
+}
