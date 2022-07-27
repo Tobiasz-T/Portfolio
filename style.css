@@ -31,6 +31,11 @@ h2{
     width:50%;
     float: left;
 }
+#box{
+    background-color: rgb(77, 76, 75);
+    width: 100%;
+    float: left;
+}
 #left{
     background-color: rgb(77, 76, 75);
     height:600px;
@@ -44,8 +49,8 @@ h2{
     float: left;
 }
 #footer{
-    background-color: rgb(13, 13, 13);
-    height:30px;
+    background-color: rgb(77,76,75);
+    height:60px;
     width:100%;
     clear:both;
 }
@@ -153,5 +158,61 @@ h2{
     float:left;
 }
 #css{
+    float: left;
+}
+.cont .button {
+    display: inline-flex;
+    height: 60px;
+    width: 60px;
+    float:left;
+    margin: 0 5px;
+    overflow: hidden;
+    background-color: orangered;
+    border-radius: 50px;
+    cursor:pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+}
+.cont{
+    position:absolute;
+    left:40%;
+}
+.cont .button:hover{
+    width: 214px;
+}
+.cont .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    margin-left: 10px;
+}
+.cont .button .icon i{
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.cont .button span{
+    font-size: 14px;
+    font-weight: 20;
+    line-height: 60px;
+    margin-left: 14px;
+}
+.img{
+    background-color: blue;
+    height: 300px;
+    width:30%;
+    float: left;
+}
+#z{
+    background-color: blueviolet;
+    position: relative;
+    height: 500px;
+    width: 300px;
+    margin-top: 50px;
+    left: 30%;
     float: left;
 }
