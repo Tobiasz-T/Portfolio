@@ -2,6 +2,27 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" type"text/css" href="style.css">
+        <script>
+            
+            var home='<h2>Hi, my name is Tobiasz Tudrej.<br> I am an IT specialist.</h2>';
+            var about='<div id="div1"><h2>About Me</h2></div><div id="div1"></div>';
+            function Home(){
+        
+                if (home){
+                    document.getElementById("left").innerHTML = home;
+                    //vImg = false;
+                } 
+            }
+            
+            function About(){
+        
+                if (about){
+                    document.getElementById("left").innerHTML = about;
+                    //vImg = false;
+                } 
+            }
+        
+        </script>
     </head>
 
     <body>
@@ -9,7 +30,7 @@
             <h1>Portfolio</h1>
         </div>
         <div id="menu">
-                <div class="menu">Home</div> <div class="menu">About</div> <div class="menu">Skills</div> <div class="menu">Contact</div> 
+                <div class="menu" onclick="Home()">Home</div> <div class="menu" onclick="About()">About</div> <div class="menu">Skills</div> <div class="menu">Contact</div> 
         </div>
         <div id="left">
             <h2>Hi, my name is Tobiasz Tudrej.<br> I am an IT specialist.</h2>
