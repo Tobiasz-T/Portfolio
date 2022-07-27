@@ -2,11 +2,30 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
         <script>
             
-            var home='<h2>Hi, my name is Tobiasz Tudrej.<br> I am an IT specialist.</h2>';
-            var about='<div id="div1"><h2>About Me</h2></div><div id="div1"></div>';
-            var skill= '<div>\
+            var home='<div id="box"><div id="left"><h2>Hi, my name is Tobiasz Tudrej.<br> I am an IT specialist.</h2></div><div id="right"><div id="z"></div></div></div>';
+            var about='<div id="left"><h2>About Me</h2></div><div id="right"><div id="z"></div></div>';
+            var skills=/* '<div id="box">\
+                            <h1>My skills</h1>\
+                            <div id="con">\
+                                <div class="skill">\
+                                    <h3>HTML</h3><span class="bar"><span class="html"></span></span>\
+                                </div>\
+                                <div class="skill">\
+                                    <h3>CSS</h3><span class="bar"><span class="css"></span></span>\
+                                </div>\
+                                <div class="skill">\
+                                    <h3>JS</h3><span class="bar"><span class="js"></span></span>\
+                                </div>\
+                                <div class="skill">\
+                                    <h3>PHP</h3><span class="bar"><span class="php"></span></span>\
+                                </div>\
+                            </div>\
+                        </div>';*/
+            '<div id="box">\
+                        <div id="left">\
                             <h1>My skills</h1>\
                                 <div class="skill">\
                                     <h3>HTML</h3><span class="bar"><span class="html"></span></span>\
@@ -20,13 +39,22 @@
                                 <div class="skill">\
                                     <h3>PHP</h3><span class="bar"><span class="php"></span></span>\
                                 </div>\
+                            </div>\
                         </div>';
-             
+             var interested='<div class="img">\
+                    <h1>zd!</h1>\
+                </div>\
+                <div class="img">\
+                    <h1>zd!</h1>\
+                </div>\
+                <div class="img">\
+                    <h1>zd!</h1>\
+                </div>';
         
             function Home(){
         
                 if (home){
-                    document.getElementById("left").innerHTML = home;
+                    document.getElementById("box").innerHTML = home;
                     //vImg = false;
                 } 
             }
@@ -34,15 +62,22 @@
             function About(){
         
                 if (about){
-                    document.getElementById("left").innerHTML = about;
+                    document.getElementById("box").innerHTML = about;
                     //vImg = false;
                 } 
             }
 
             function Skill(){
         
-                if (skill){
-                    document.getElementById("left").innerHTML = skill;
+                if (skills){
+                    document.getElementById("box").innerHTML = skills;
+                    //vImg = false;
+                } 
+            }
+            function Interested(){
+        
+                if (interested){
+                    document.getElementById("box").innerHTML = interested;
                     //vImg = false;
                 } 
             }
@@ -55,16 +90,41 @@
             <h1>Portfolio</h1>
         </div>
         <div id="menu">
-                <div class="menu" onclick="Home()">Home</div> <div class="menu" onclick="About()">About</div> <div class="menu" onclick="Skill()">Skills</div> <div class="menu">Contact</div> 
+                <div class="menu" onclick="Home()">Home</div> <div class="menu" onclick="About()">About</div> <div class="menu" onclick="Skill()">Skills</div> <div class="menu" onclick="Interested()">Interested</div> 
         </div>
-        <div id="left">
-            <h2>Hi, my name is Tobiasz Tudrej.<br> I am an IT specialist.</h2>
-        </div>
-        <div id="right">
-
-        </div>
+        <div id="box">
+            <div id="left">
+                <h2>Hi, my name is Tobiasz Tudrej.<br> I am an IT specialist.</h2>
+            </div>
+            <div id="right">
+                <div id="z"></div>
+            </div>
+         </div>
+        </body>
         <div id="footer">
-            
+            <div class="cont">
+                <div class="button">
+                        <div class="icon">
+                                <i class="fa fa-phone-square"></i></div> <!--"fab fa-github"-->
+                                <span>tel:665-525-360</span>
+                 </div>  
+                 <div class="button">
+                    <div class="icon">
+                        <i class="fab fa-whatsapp"></i></div>
+                            <span>tel:665-525-360</span>
+                 </div>  
+                 <div class="button">
+                    <div class="icon">
+                        <i class="fa fa-at"></i></div>
+                            <span>tobi1997tobi@wp.pl</span>
+                     </div>   
+                <div class="button">
+                <div class="icon">
+                        <i class="fab fa-linkedin"></i></div>
+                            <span><a href="https://www.linkedin.com/home">linkedin</a></span>
+                 </div>                
+                               
+            </div>
         </div>
     </body>
 </html>
