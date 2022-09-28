@@ -1,18 +1,30 @@
 # Portfolio
 Strona o mojej pracy , zawodzie i zainteresowaniu.
-## Spis treści
-* [Technologia](#Technologia)
-* [Znam języki Programowania](#Znam języki Programowania)
-* [Kontakt](#Kontakt)
-
-## Technologia
-- HTML
-- CSS
-- JS (JavaScript)
-## Znam języki Programowania
-- HTML -3 lata.
-- CSS -3 lata.
-- JS (JavaScript)-2 lata.
-- PHP - 1 rok.
-## Kontakt
-- tel:665525360
+## Contents
+* [Menu](#Menu)
+* [Skills](#Skills)
+* [Contact](#Contact)
+## Menu
+- Home
+- About
+- Skills
+- Interested
+## Skills
+# Technology
+- HTML 90%
+- CSS 70%
+- JS (JavaScript) 60%
+- PHP 40%
+# My pages
+- Portfolio
+- ROCK_PAPER_SCISSORS
+- TIC_TAK_TOE
+# Other
+- GIT
+- LINUX
+- SQL
+# Contact
+- phone:665-525-360
+- mail: tobi1997tobi@wp.pl
+- 
+- 
