@@ -48,7 +48,7 @@ var skills=
                         </ul>\
                         <h2>Other Skills</h2>\
                         <ul>\
-                            <li><h3>git/github</h3></li>\
+                            <li><h3>GIT / GitHub</h3></li>\
                             <li><h3>LINUX</h3></li>\
                             <li><h3>SQL</h3></li>\
                         </ul>\
