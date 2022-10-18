@@ -15,7 +15,7 @@ h2{
     margin-top: 0px;
 }
 h3{
-    color: white;
+    color:white;
 }
 #baner{
     background-color: rgb(77, 76, 75);
@@ -27,6 +27,7 @@ h3{
 }
 #menu{
     background-color: rgb(255, 106, 0);
+    color:white;
     border-bottom-left-radius:100px ;
     display: flex;
     justify-items: center;
@@ -183,7 +184,8 @@ h3{
     left:40%;
 }
 .cont .button:hover{
-    width: 214px;
+    width: 280px;
+    text-align: center;
 }
 .cont .button .icon{
     display: inline-block;
@@ -193,6 +195,7 @@ h3{
     box-sizing: border-box;
     line-height: 60px;
     margin-left: 10px;
+    align-items: center;
 }
 .cont .button .icon i{
     font-size: 40px;
@@ -201,7 +204,7 @@ h3{
 }
 
 .cont .button span{
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 20;
     line-height: 60px;
     margin-left: 14px;
@@ -259,4 +262,16 @@ h3{
 #zd{
     margin-top: 50px;
     margin-left:50px;
+}
+.bee{
+    color: black;
+    text-shadow: 1px 1px 15px orangered;
+}
+.chess{
+    color: white;
+    text-shadow: 1px 1px 15px white;
+}
+.farm{
+    color: yellow;
+    text-shadow: 1px 1px 15px red;
 }

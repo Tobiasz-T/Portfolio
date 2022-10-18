@@ -1,6 +1,13 @@
 
             
-var home='<div id="box"><div id="left"><h2>Hi, my name is Tobiasz Tudrej.<br> I am an IT specialist.</h2></div><div id="t"><img src="img/Tobiasz_Tudrej.png"class="t"></div></div></div>';
+var home='<div id="box">\
+    <div id="left">\
+        <br><h2>Hi, my name is Tobiasz Tudrej.<br> I am an IT specialist.</h2>\
+    </div>\
+        <div id="t">\
+            <img src="img/Tobiasz_Tudrej.png"class="t">\
+        </div>\
+</div>';
 
 
 var about='<div id="left">\
@@ -25,7 +32,7 @@ var about='<div id="left">\
 var skills=
     '<div id="box">\
                 <div id="left">\
-                    <h2>Language Expertise</h2>\
+                    <br><h2>Language Expertise</h2>\
                         <div class="skill">\
                             <h3>HTML<br>90%</h3><span class="bar"><span class="html"></span></span>\
                         </div>\
@@ -40,7 +47,7 @@ var skills=
                         </div>\
                     </div>\
                     <div id="right">\
-                        <h2>My Web Pages</h2>\
+                        <br><h2>My Web Pages</h2>\
                         <ul>\
                             <li><a href=""><h3>Portfolio(this page)</h3></a></li>\
                             <li><a href=""><h3>ROCK_PAPER_SCISSORS</h3></a></li>\
@@ -58,19 +65,19 @@ var skills=
 var interested='<div class="container">\
     <div class="img">\
         <div class="box-bee">\
-            <h1>Bee Keeping</h1>\
+            <h1 class="bee">Bee Keeping</h1>\
         </div>\
     </div>\
     \
     <div class="img">\
         <div class="box-chees">\
-            <h1>Chess</h1>\
+            <h1 class="chess">Chess</h1>\
         </div>\
     </div>\
     \
     <div class="img">\
         <div class="box-farm">\
-            <h1>Farming</h1>\
+            <h1 class="farm">Farming</h1>\
         </div>\
     </div>\
     </div>';
