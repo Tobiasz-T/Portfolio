@@ -42,9 +42,9 @@ var skills=
                     <div id="right">\
                         <h2>My Web Pages</h2>\
                         <ul>\
-                            <li><a href=""><h3>Portfolio(this page)</h3></a></li>\
-                            <li><a href=""><h3>ROCK_PAPER_SCISSORS</h3></a></li>\
-                            <li><a href=""><h3>TIC_TAK_TOE</h3></a></li>\
+                            <li><a href="https://github.com/Tobiasz-T/Portfolio" target="blank"><h3>Portfolio(this page)</h3></a></li>\
+                            <li><a href="https://github.com/Tobiasz-T/rock_paper_scissors" target="blank"><h3>ROCK_PAPER_SCISSORS</h3></a></li>\
+                            <li><a href="https://github.com/Tobiasz-T/tic_tac_toe_2" target="blank"><h3>TIC_TAK_TOE</h3></a></li>\
                         </ul>\
                         <h2>Other Skills</h2>\
                         <ul>\
