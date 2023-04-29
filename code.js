@@ -50,8 +50,11 @@ var skills=
                         <br><h2>My Web Pages</h2>\
                         <ul>\
                             <li><a href="https://github.com/Tobiasz-T/Portfolio" target="blanket"><h3>Portfolio(this page)</h3></a></li>\
+                            <li><a href="https://github.com/Tobiasz-T/Shop" target="blanket"><h3>Shop</h3></a></li>\
+                            <li><a href="https://github.com/Tobiasz-T/beekeeper_table" target="blanket"><h3>Beekeeper_table</h3></a></li>\
                             <li><a href="https://github.com/Tobiasz-T/rock_paper_scissors" target="blanket"><h3>ROCK_PAPER_SCISSORS</h3></a></li>\
                             <li><a href="https://github.com/Tobiasz-T/tic_tac_toe_2" target="blanket"><h3>TIC_TAK_TOE</h3></a></li>\
+                            <li><a href="https://github.com/Tobiasz-T/Wordpress_code" target="blanket"><h3>Wordpress_code </h3></a></li>\
                         </ul>\
                         <h2>Other Skills</h2>\
                         <ul>\
